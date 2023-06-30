@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Ali Hassan">
+    <meta name="description" content="A portfolio project by Muhammad Ali Hassan">
+    <meta name="copyright" content="Copyright 2023">
+    <title>Tourism Website</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- JS -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M381 114.9L186.1 41.8c-16.7-6.2-35.2-5.3-51.1 2.7L89.1 67.4C78 73 77.2 88.5 87.6 95.2l146.9 94.5L136 240 77.8 214.1c-8.7-3.9-18.8-3.7-27.3 .6L18.3 230.8c-9.3 4.7-11.8 16.8-5 24.7l73.1 85.3c6.1 7.1 15 11.2 24.3 11.2H248.4c5 0 9.9-1.2 14.3-3.4L535.6 212.2c46.5-23.3 82.5-63.3 100.8-112C645.9 75 627.2 48 600.2 48H542.8c-20.2 0-40.2 4.8-58.2 14L381 114.9zM0 480c0 17.7 14.3 32 32 32H608c17.7 0 32-14.3 32-32s-14.3-32-32-32H32c-17.7 0-32 14.3-32 32z"/></svg> Tourism </a>
+            </div>
+            <!-- Main Navbar -->
+            <nav class="navbar-main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Explore Pakistan</a></li>
+                    <li><a href="#">Plan Your Trip</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <!-- Main Navbar Mobile -->
+            <nav class="navbar-main-mobile" id="navbar_main_mobile">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Explore Pakistan</a></li>
+                    <li><a href="#">Plan Your Trip</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>            
+            </nav>        
+            <!-- Hamburger -->
+            <button class="btn-hamburger" id="btn_hamburger" type="button">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-mid"></span>
+                <span class="hamburger-btm"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <!-- Top Section -->
+        <section class="section-top">
+            <h1>Pakistan</h1>
+        </section>
+        <!-- Facts Section -->
+        <section class="section-facts">
+            <div class="fact-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M560 160A80 80 0 1 0 560 0a80 80 0 1 0 0 160zM55.9 512H381.1h75H578.9c33.8 0 61.1-27.4 61.1-61.1c0-11.2-3.1-22.2-8.9-31.8l-132-216.3C495 196.1 487.8 192 480 192s-15 4.1-19.1 10.7l-48.2 79L286.8 81c-6.6-10.6-18.3-17-30.8-17s-24.1 6.4-30.8 17L8.6 426.4C3 435.3 0 445.6 0 456.1C0 487 25 512 55.9 512z"/></svg>
+                <h2>Mountains</h2>
+                <p>4 of the 14 highest peaks in the world</p>
+            </div>
+            <div class="fact-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M192 32c0-17.7 14.3-32 32-32H352c17.7 0 32 14.3 32 32V64h48c26.5 0 48 21.5 48 48V240l44.4 14.8c23.1 7.7 29.5 37.5 11.5 53.9l-101 92.6c-16.2 9.4-34.7 15.1-50.9 15.1c-19.6 0-40.8-7.7-59.2-20.3c-22.1-15.5-51.6-15.5-73.7 0c-17.1 11.8-38 20.3-59.2 20.3c-16.2 0-34.7-5.7-50.9-15.1l-101-92.6c-18-16.5-11.6-46.2 11.5-53.9L96 240V112c0-26.5 21.5-48 48-48h48V32zM160 218.7l107.8-35.9c13.1-4.4 27.3-4.4 40.5 0L416 218.7V128H160v90.7zM306.5 421.9C329 437.4 356.5 448 384 448c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 501.7 417 512 384 512c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.4 27.3-10.1 39.2-1.7l0 0C136.7 437.2 165.1 448 192 448c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0z"/></svg>
+                <h2>Sea Ports</h2>
+                <p>Largest deep sea port in the world</p>
+            </div>
+            <div class="fact-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M343.9 213.4L245.3 312l65.4 65.4c7.9 7.9 11.1 19.4 8.4 30.3s-10.8 19.6-21.5 22.9l-256 80c-11.4 3.5-23.8 .5-32.2-7.9S-2.1 481.8 1.5 470.5l80-256c3.3-10.7 12-18.9 22.9-21.5s22.4 .5 30.3 8.4L200 266.7l98.6-98.6c-14.3-14.6-14.2-38 .3-52.5l95.4-95.4c26.9-26.9 70.5-26.9 97.5 0s26.9 70.5 0 97.5l-95.4 95.4c-14.5 14.5-37.9 14.6-52.5 .3z"/></svg>
+                <h2>Salt Mines</h2>
+                <p>Second largest salt mine in the world</p>
+            </div>
+            <div class="fact-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l171.8 98.1L448 104l0 .9 47.9 27.4c12.6 7.2 18.8 22 15.1 36s-16.4 23.8-30.9 23.8H32c-14.5 0-27.2-9.8-30.9-23.8s2.5-28.8 15.1-36L64 104.9V104l4.4-1.6L240.1 4.2zM64 224h64V416h40V224h64V416h48V224h64V416h40V224h64V420.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512H32c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1V224z"/></svg>
+                <h2>History</h2>
+                <p>Home to the Indus Valley civilization</p>
+            </div>
+        </section>
+        <!-- Main Section -->
+        <section class="section-main">
+            <div class="section-main-container">
+                <div class="section-main-image">
+                    <img src="images/section-1.jpg" alt="An image of Nanga Parbat in Gilgit">
+                </div>
+                <div class="section-main-content">
+                    <p>Discover the hidden gems of Pakistan, a land filled with ancient treasures and breathtaking landscapes.</p>
+                    <a href="##">Find out more</a>
+                </div>
+            </div>
+            <div class="section-main-container reversed">
+                <div class="section-main-image">
+                    <img src="images/section-2.jpg" alt="An image of Hunza Valley in Gilgit">
+                </div>
+                <div class="section-main-content">
+                    <p>Uncover a world of adventure, from thrilling trekking expeditions to exhilarating river rafting.</p>
+                    <a href="##">Find out more</a>
+                </div>
+            </div>
+            <div class="section-main-container">
+                <div class="section-main-image">
+                    <img src="images/section-3.jpg" alt="An image of rural area in Punjab">
+                </div>
+                <div class="section-main-content">
+                    <p>Immerse yourself in the rich history and timeless traditions.</p>
+                    <a href="##">Find out more</a>
+                </div>
+            </div>
+            <div class="section-main-container reversed">
+                <div class="section-main-image">
+                    <img src="images/section-4.jpg" alt="An image of Ras Koh Hills in Balochistan">
+                </div>
+                <div class="section-main-content">
+                    <p>Experience the epitome of beauty in Pakistan, where nature's artistry knows no bounds.</p>
+                    <a href="##">Find out more</a>
+                </div>
+            </div>
+        </section>
+        <!-- Stats Section -->
+        <section class="section-stats">
+            <div class="stat-container">
+                <span class="counter" data-target="230">0</span><span class="counter-m">M</span>
+                <h3>Population<a target="_blank" href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=PK"><sup> [i] </sup></a></h3>
+            </div>
+            <div class="stat-container">
+                <span class="counter" data-target="6">0</span>
+                <h3>World Heritage Sites<a target="_blank" href="https://whc.unesco.org/en/statesparties/pk"><sup> [i] </sup></a></h3>
+            </div>
+            <div class="stat-container">
+                <span class="counter" data-target="69">0</span>
+                <h3>Languages<a target="_blank" href="https://www.ethnologue.com/country/PK/"><sup> [i] </sup></a></h3>
+            </div>
+        </section>
+        <!-- Slides Section -->
+        <section class="section-slides">
+            <div class="slides-back">
+                <div class="regions">
+                    <h3>Regions of Pakistan</h3>
+                    <ul>
+                        <li><span class="option" onclick="currentSlide(1)">Islamabad</span></li>
+                        <li><span class="option" onclick="currentSlide(2)">Punjab</span></li>
+                        <li><span class="option" onclick="currentSlide(3)">Khyber Pakhtunkhwa</span></li>
+                        <li><span class="option" onclick="currentSlide(4)">Sindh</span></li>
+                        <li><span class="option" onclick="currentSlide(5)">Balochistan</span></li>
+                        <li><span class="option" onclick="currentSlide(6)">Gilgit Baltistan</span></li>
+                        <li><span class="option" onclick="currentSlide(7)">Azad Kashmir</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slides-front">
+                <div class="slides">
+                    <img src="images/slide-1.jpg" alt="">
+                    <div class="slides-text">Faisal Mosque</div>
+                </div>
+                <div class="slides">
+                    <img src="images/slide-2.jpg" alt="">
+                    <div class="slides-text">Tomb of Shah Rukn-e-Alam</div>
+                </div>
+                <div class="slides">
+                    <img src="images/slide-3.jpg" alt="">
+                    <div class="slides-text">Kumrat Valley</div>
+                </div>
+                <div class="slides">
+                    <img src="images/slide-4.jpeg" alt="">
+                    <div class="slides-text">Mohenjo-daro</div>
+                </div>
+                <div class="slides">
+                    <img src="images/slide-5.jpg" alt="">
+                    <div class="slides-text">Princess of Hope</div>
+                </div>
+                <div class="slides">
+                    <img src="images/slide-6.jpeg" alt="">
+                    <div class="slides-text">Passu Cones</div>
+                </div>
+                <div class="slides">
+                    <img src="images/slide-7.jpg" alt="">
+                    <div class="slides-text">Neelum Valley</div>
+                </div>
+            </div>
+            <div class="options-circle">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+                <span class="dot" onclick="currentSlide(7)"></span> 
+              </div>
+        </section>
+        <!-- Info Section -->
+        <section class="section-info">
+            <div class="info-container" id="ic_1">
+                <div class="info-content">
+                    <p>Experience the fusion of past and present in Pakistan's historic cities.</p>
+                    <a class="info-btn" href="###">Discover</a>
+                </div>
+            </div>
+            <div class="info-container" id="ic_2">
+                <div class="info-content">
+                    <p>Unleash your adventurous spirit in Pakistan, where thrilling experiences await.</p>
+                    <a class="info-btn" href="###">Discover</a>
+                </div>
+            </div>
+            <div class="info-container" id="ic_3">
+                <div class="info-content">
+                    <p>Rejuvenate your soul amidst Pakistan's serene landscapes and tranquil retreats.</p>
+                    <a class="info-btn" href="###">Discover</a>
+                </div>
+            </div>
+        </section>
+        <!-- Google Map Section -->
+        <section class="section-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14145736.79033902!2d59.983528894058146!3d30.04979348328979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2suk!4v1686550759583!5m2!1sen!2suk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!-- Newsletter Section -->
+        <section class="section-newsletter">
+            <div class="newsletter-pic">
+                <img src="images/section-newsletter.jpg" alt="An image of Badshahi Mosque in Punjab">
+            </div>
+            <div class="newsletter-content">
+                <div class="newsletter-heading">
+                    <h3>Subscribe to our newsletter</h3>
+                </div>
+                <form>
+                    <div>
+                        <label for="user_name">Name : </label>
+                        <input type="text" class="form-input" id="user_name" name="user_name" required>
+                    </div>
+                    <div>
+                        <label for="user_email">Email : </label>
+                        <input type="email" class="form-input" id="user_email" name="user_email" required>
+                    </div>
+                    <div>
+                        <button type="submit" disabled>Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <h4 class="photo-credits"><a target="_blank" href="credits.html">Photo Credits</a></h4>
+            <!-- Icons -->
+            <ul>
+                <li><a target="_blank" href="https://github.com/mahassan9300"><svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a></li>
+                <li><a target="_blank" href="https://linkedin.com/in/mahassan9300"><svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></li>
+                <li><a href="####"><svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg></a></li>
+            </ul>
+            <h4 class="footer-message">A Portfoilo Project By Muhammad Ali Hassan</h4>
+        </div>
+    </footer>
+</body>
+</html>
