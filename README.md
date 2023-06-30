@@ -1,2 +1,3 @@
 # tourism-portfolio-repo
- A tourism website homepage for my personal portfolio projects
+ A responsive tourism website homepage for my personal portfolio projects.
+ Technologies used: HTML | CSS | JS
